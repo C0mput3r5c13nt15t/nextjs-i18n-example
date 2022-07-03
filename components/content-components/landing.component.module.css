@@ -1,0 +1,34 @@
+.landing {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  color: #052C49;
+}
+
+.textbox {
+  margin: auto;
+  width: 33vw;
+  text-align: center;
+}
+
+.title {
+  font-size: 4vw;
+}
+
+.subtitle {
+  font-size: 2.2vw;
+}
+
+@media (max-width: 1000px) {
+  .textbox {
+    width: 100%;
+  }
+  .title {
+    font-size: 8vw;
+  }
+
+  .subtitle {
+    font-size: 4vw;
+  }
+}

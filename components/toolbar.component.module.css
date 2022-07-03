@@ -1,0 +1,55 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: calc(40px + 14px);
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+  margin: 7px;
+  width: 40px;
+  height: 40px;
+}
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-color: #052C49;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropdownContent {
+  display: none;
+  position: fixed;
+  top: 54px;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+  color: black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dropdownContent a {
+  display: block;
+  line-height: normal;
+  padding: 10px;
+}
+
+.dropdownContent a:hover {
+  background-color: #052C49;
+  color: white;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
