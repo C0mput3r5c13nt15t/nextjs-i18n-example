@@ -9,6 +9,7 @@ export default function Page({ title, description, components }: { title: string
   return (
     <>
       <Head>
+        <html lang={'es'} />
         <title>{title}</title>
         <meta name="description" content={description} />
       </Head>
