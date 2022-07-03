@@ -9,8 +9,8 @@ export default function Page({ title, description, components }: { title: string
   return (
     <>
       <Head>
-        <html lang={'de'} />
         <title>{title}</title>
+        <meta http-equiv={'Content-Language'} content={'de'} />
         <meta name="description" content={description} />
       </Head>
       { components && components.map((component, index) => {
